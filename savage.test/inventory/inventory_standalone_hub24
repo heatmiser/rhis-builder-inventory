@@ -1,0 +1,44 @@
+[provisioner]
+localhost
+
+[idm_primary]
+idm.savage.test
+
+[idm_replicas]
+idmr1.savage.test
+idmr2.savage.test
+
+[sat_primary]
+satellite.savage.test
+
+[sat_capsule]
+capsule1.savage.test
+capsule2.savage.test
+
+[platform_installer]
+aaphub24.savage.test
+
+[aap_controllers]
+aapcontroller24.savage.test
+
+# [aap_database]
+
+[aap_hubs]
+aaphub24.savage.test
+
+# [aap_edacontrollers]
+# [aap_execution_nodes]
+# [aap_hop_nodes]
+
+[container_servers]
+containerhost1.savage.test
+containerhost2.savage.test
+
+# [aws_nodes]
+# [azure_nodes]
+# [baremetal_nodes]
+# [gcp_nodes]
+# [kvm_nodes]
+# [ocp_virt_nodes]
+# [openstack_nodes]
+# [vmware_nodes]
