@@ -20,7 +20,7 @@ hg_test_hosts:
         provision: true
         subnet: "savage.test"
         mac: "54:b2:03:f1:0b:9f"
-        ip: "192.168.140.201"
+        ip: "172.16.0.201"
 
   - fqdn: "hg-x86-64-rhel8-vm1.savage.test"
     delete_host: false
@@ -58,7 +58,7 @@ hg_test_hosts:
         provision: true
         subnet: "{{ _default_subnetname }}"
         mac: "54:b2:03:f1:0b:d2"
-        ip: "192.168.140.202"
+        ip: "172.16.0.202"
 
   - fqdn: "hg-x86-64-rhel9-vm1.savage.test"
     delete_host: false

@@ -3,9 +3,9 @@
 # GLOBAL VARIABLES THAT APPLY TO ALL HOSTS
 _global_domain_name: "savage.test"
 
-_default_network: "192.168.140"
-_default_network_prefix: "22"
-_default_network_mask: "255.255.252.0"
+_default_network: "172.16.0"
+_default_network_prefix: "16"
+_default_network_mask: "255.255.0.0"
 
 timeservers:
   - "time1.{{ _global_domain_name }}"
@@ -124,12 +124,12 @@ ssl_private_key_size: 4096
 ssl_public_key_path: "{{ crt_dir }}/{{ ansible_fqdn }}.pub"
 ssl_public_key_format: PEM
 csr_path: "{{ crt_dir }}/{{ ansible_fqdn }}.csr"
-csr_email_address: "parmstro@{{ _global_domain_name }}"
-csr_organization_name: "Paul Armstrong"
+csr_email_address: "msavage@{{ _global_domain_name }}"
+csr_organization_name: "Savage Technologies"
 csr_organization_unit_name: "Red Lab"
-csr_country_name: "CA"
-csr_state_or_province_name: "ON"
-csr_locality_name: "Cambridge"
+csr_country_name: "US"
+csr_state_or_province_name: "SC"
+csr_locality_name: "Simpsonville"
 csr_digest: "aes256"
 crt_service_type: "HTTP"
 ssl_crt_path: "{{ crt_dir }}/{{ ansible_fqdn }}.crt"

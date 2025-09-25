@@ -90,4 +90,4 @@ settings_template_sync:
     description: "Custom commit message for templates export"
     settings_type: "string"
 #    default: "Templates export made by a Satellite user"
-    value: "Templates export made by a Canadian"
+    value: "Templates export made by a Savage"

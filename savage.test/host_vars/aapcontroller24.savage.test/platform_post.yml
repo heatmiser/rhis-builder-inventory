@@ -13,7 +13,7 @@ aap_manifest_account: "{{ aap_cdn_account_number_vault }}"
 aap_validate_certs: false
 
 # AAP Authentication
-aap_ldap_domain_map: "dc=example,dc=ca"
+aap_ldap_domain_map: "dc=savage,dc=test"
 aap_admin_username: "{{ aap_admin_username_vault }}"
 aap_admin_password: "{{ aap_admin_password_vault }}"
 

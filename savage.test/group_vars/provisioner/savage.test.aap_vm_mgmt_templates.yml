@@ -445,4 +445,4 @@ vm_day_2_templates:
         - "time1.savage.test"
         - "time2.savage.test"
         - "time3.savage.test"
-      time_timezone: "America/Toronto"
+      time_timezone: "America/NewYork"

@@ -12,7 +12,7 @@ capsule_hosts:
     kickstart_repository: "Red Hat Enterprise Linux 9 for x86_64 - BaseOS Kickstart 9.6"
     compute_resource: "baremetal"
     mac: "94:c6:91:13:37:9e"
-    boot_ip: "192.168.252.81"
+    boot_ip: "172.16.0.31"
     crt_force_regen: false
   - name: "capsule2"
     fqdn: "capsule2.savage.test"
@@ -23,5 +23,5 @@ capsule_hosts:
     kickstart_repository: "Red Hat Enterprise Linux 9 for x86_64 - BaseOS Kickstart 9.6"
     compute_resource: "baremetal"
     mac: "94:c6:91:a3:19:41"
-    boot_ip: "192.168.252.82"
+    boot_ip: "172.16.0.42"
     crt_force_regen: false

@@ -23,13 +23,13 @@ azure1_client_id: "{{ azure1_client_id_vault }}"
 azure1_client_secret_id: "{{ azure1_client_secret_id_vault }}"
 azure1_client_secret: "{{ azure1_client_secret_vault }}"
 azure1_cloud: "azure"
-azure1_region: "Canada Central"
-azure1_resourcegroup1: "rg_parmstrong_ca"
+azure1_region: "United Sates East"
+azure1_resourcegroup1: "rg_savage_test"
 
 aws1_access_key: "{{ aws1_access_key_vault }}"
 aws1_secret_key: "{{ aws1_secret_key_vault }}"
 aws1_gov_cloud: false
-aws1_region: "ca-central-1"
+aws1_region: "eastus"
 
 compute_resources:
   - name: "VMware_Lab"

@@ -11,18 +11,18 @@
 
 # test users
 satellite_users:
-  - name: "bobsurunkle"
-    firstname: "Bob"
-    lastname: "Surunkle"
-    email: "bobsurunkle@savage.test"
-    description: "Uncle Bob"
+  - name: "bobsyurunkle"
+    firstname: "Bobs"
+    lastname: "Yurunkle"
+    email: "bobsyurunkle@savage.test"
+    description: "Uncle Bobs"
     admin: "false"
     user_password: "random_password"  # not_a_secret
     default_location: "Default Location"
     default_organization: "Default Organization"
     auth_source: "Internal"  # or "External"
-    timezone: "Toronto"
-    locale: "en_GB"
+    timezone: "NewYork"
+    locale: "en_US"
     locations:
       - "Default Location"
     organizations:
@@ -45,7 +45,7 @@ satellite_user_groups:
     roles:
       - "Operator"
     users:
-      - "bobsurunkle"
+      - "bobsyurunkle"
     state: "present"
 
 # test roles

@@ -21,7 +21,7 @@ aap24_hosts:
         provision: true
         subnet: "{{ _default_subnetname }}"
         mac: "54:b2:03:f1:0b:6a"
-        ip: "192.168.140.14"
+        ip: "172.16.0.26"
 
 # The aap controller node
   - fqdn: "{{ groups['aap_controllers'][0] }}"
@@ -41,7 +41,7 @@ aap24_hosts:
         provision: true
         subnet: "{{ _default_subnetname }}"
         mac: "54:b2:03:f1:0b:46"
-        ip: "192.168.140.15"
+        ip: "172.16.0.27"
 
 
 # AAP 2.5 Growth Deployment

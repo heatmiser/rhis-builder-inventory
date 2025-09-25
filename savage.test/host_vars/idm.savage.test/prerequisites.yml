@@ -13,9 +13,9 @@ repository_ids:
 # TODO: Change this to handle a list instead
 # NOTE: existing configurations will need to move to list when this changes.
 
-timeserver1: "192.168.252.8"
-timeserver2: "192.168.252.7"
-timeserver3: "192.168.252.9"
+timeserver1: "172.16.0.6"
+timeserver2: "172.16.0.7"
+timeserver3: "172.16.0.8"
 
 idm_pre_dns_resolvers:  # e.g. replace with your own resolvers
   - 8.8.8.8
@@ -39,7 +39,7 @@ ipa_crypto_policy: "DeFaULt"
 # before IdM DNS comes up in your network here
 # These are simply test values
 etc_hosts_list:
-  - ip: "192.168.140.13"
+  - ip: "172.16.0.11"
     fqdn: "provisioner.savage.test"
-  - ip: "192.168.140.12"
+  - ip: "172.16.0.21"
     fqdn: "satellite.savage.test"
