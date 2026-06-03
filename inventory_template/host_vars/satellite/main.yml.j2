@@ -1,4 +1,5 @@
 ---
+{% raw %}
 # This file holds the main satellite level variables.
 use_completion_logic: true
 
@@ -31,3 +32,6 @@ satellite_disconnected: false
 # satellite_os_repo_template_name: "rhel_os_repo_file.j2"
 # satellite_os_repo_template_dest: "/etc/yum.repos.d/rhis_os_base.repo"
 # satellite_cdn_configuration_type: "export_sync"
+{% endraw %}
+# Satellite release version — rendered from inventory_basevars.yml at inventory_update time
+rhis_satellite_release_version: "{{ rhis_satellite_release_version }}"
